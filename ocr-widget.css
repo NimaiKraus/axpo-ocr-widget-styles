@@ -1,12 +1,7 @@
-/* OCR Widget CSS Styles */
-/* Modern, responsive styling for OCR functionality */
-
-@layer base {
-  :root {
-    --primaryColor: #2563eb;
-    --secondaryColor: #64748b;
-    --backgroundColor: #0e5092;
-    --textColor: #1e293b;
-    --detailColor: #c42222;
-  }
+:root {
+  --primaryColor: #2563eb;
+  --secondaryColor: #64748b;
+  --backgroundColor: #0e5092;
+  --textColor: #1e293b;
+  --detailColor: #c42222;
 }
