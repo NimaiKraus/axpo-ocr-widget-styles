@@ -1,0 +1,23 @@
+{
+  "name": "css-minifier",
+  "version": "1.0.0",
+  "description": "A simple CSS minifier script for the OCR widget project",
+  "main": "minify-css.js",
+  "scripts": {
+    "minify": "node minify-css.js",
+    "minify:watch": "node -e \"const fs=require('fs'); const {spawn}=require('child_process'); console.log('👀 Watching ocr-widget.css for changes...'); fs.watchFile('ocr-widget.css', ()=>{console.log('🔄 File changed, minifying...'); spawn('node', ['minify-css.js'], {stdio:'inherit'});});\"",
+    "build": "node minify-css.js ocr-widget.css ocr-widget.min.css",
+    "help": "node -e \"console.log('Available commands:\\n  npm run minify        - Minify ocr-widget.css\\n  npm run minify:watch  - Watch and auto-minify on changes\\n  npm run build         - Build production version\\n  npm run help          - Show this help')\""
+  },
+  "keywords": [
+    "css",
+    "minifier",
+    "build-tool",
+    "optimization"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
