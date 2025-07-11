@@ -3,9 +3,9 @@
 }
 
 @layer base { :root {
-  --primaryColor: #163656;
-  --secondaryColor: #f8852c;
-  --backgroundColor: #ffffff;
-  --textColor: #122a46;
-  --detailColor: #e5e7eb; /* Manage color of border dashed, the line separator ecc..  */
+  --primaryColor: #163656 !important;
+  --secondaryColor: #f8852c !important;
+  --backgroundColor: #ffffff !important;
+  --textColor: #122a46 !important;
+  --detailColor: #e5e7eb !important;
 }}
