@@ -9,6 +9,7 @@
     --backgroundColor: 255 255 255 !important;
     --textColor: 18 42 70 !important;
     --detailColor: 229 231 235 !important;
+    --bg-color: #3b3759 !important;
   }
 }
 
@@ -35,6 +36,11 @@ span {
 }
 
 #pdf-uploader-text, #photo-uploader-text {
+  color: #fff !important;
+  font-weight: bold;
+}
+
+#standby-empty-digital-uploader button {
   color: #fff !important;
   font-weight: bold;
 }
