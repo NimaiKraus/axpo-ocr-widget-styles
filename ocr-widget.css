@@ -56,6 +56,9 @@ span {
   transform: translateY(-1px);
 }
 
+body {
+  background-color: transparent !important;
+}
 idp-container {
   background-color: transparent !important;
 }
