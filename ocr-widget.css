@@ -55,3 +55,7 @@ span {
   background-color: lightgreen;
   transform: translateY(-1px);
 }
+
+idp-container {
+  background-color: transparent !important;
+}
