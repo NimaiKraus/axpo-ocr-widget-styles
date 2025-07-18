@@ -34,13 +34,8 @@ span {
   gap: 8px !important;
 }
 
-#pdf-uploader-text {
-  color: #fff;
-  font-weight: bold;
-}
-
-#photo-uploader-text {
-  color: #fff;
+#pdf-uploader-text, #photo-uploader-text {
+  color: #fff !important;
   font-weight: bold;
 }
 
