@@ -12,22 +12,38 @@
   }
 }
 
+body {
+  background-color: transparent !important;
+}
+
+idp-container {
+  background-color: transparent !important;
+}
+
 span {
-  color: red;
+  color: #fff;
   font-weight: bold;
 }
-#go-to-pdf-uploader {
-  color: blue;
-  font-weight: bold;
-}
+
+#go-to-pdf-uploader,
 #go-to-photo-uploader {
-  color: red;
+  color: #fff;
+  font-weight: bold;
+  background-color: #3b3759 !important;
+  border: 1px dashed #575270;
+  gap: 8px !important;
+}
+
+#pdf-uploader-text {
+  color: #fff;
   font-weight: bold;
 }
-#pdf-uploader-text {
-}
+
 #photo-uploader-text {
+  color: #fff;
+  font-weight: bold;
 }
+
 #photo-uploader-filename-div {
   color: brown;
   font-weight: bold;
@@ -54,11 +70,4 @@ span {
 .btn-primary:hover:not(:disabled) {
   background-color: lightgreen;
   transform: translateY(-1px);
-}
-
-body {
-  background-color: transparent !important;
-}
-idp-container {
-  background-color: transparent !important;
 }
