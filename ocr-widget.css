@@ -40,7 +40,7 @@ span {
   font-weight: bold;
 }
 
-#standby-empty-digital-uploader button {
+#standby-empty-digital-uploader button:not(.file-uploader-container button) {
   color: #fff !important;
   font-weight: bold;
 }
