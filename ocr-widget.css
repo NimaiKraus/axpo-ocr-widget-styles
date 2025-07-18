@@ -26,6 +26,11 @@ span {
   font-weight: bold;
 }
 
+button {
+  border-radius: 24px;
+  font-weight: bold;
+}
+
 #go-to-pdf-uploader,
 #go-to-photo-uploader {
   color: #fff;
@@ -42,7 +47,6 @@ span {
 
 #standby-empty-digital-uploader button:not(.file-uploader-container button) {
   color: #fff !important;
-  font-weight: bold;
 }
 
 #photo-uploader-filename-div {
@@ -58,7 +62,7 @@ span {
   font-weight: bolder;
 }
 #standby-empty-digital-uploader {
-  color: purple;
+  color: #2e2a4d;
   font-weight: bold;
 }
 #ready-to-upload-digital-uploader {
