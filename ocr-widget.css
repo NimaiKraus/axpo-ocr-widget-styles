@@ -43,7 +43,7 @@ button {
 
 #go-to-pdf-uploader i.fa-9x,
 #go-to-photo-uploader i.fa-9x {
-  font-size: 2.5em; /* Adjust icon size */
+  font-size: 2.5em !important; /* Adjust icon size */
 }
 
 #pdf-uploader-text, #photo-uploader-text {
